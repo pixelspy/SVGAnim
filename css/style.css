@@ -71,8 +71,18 @@ a {
 
 @media (max-width: 400px) {
   .card {
-    width: 15%;
-    height: 16.666%;
+    width: 30%;
+    height: 10%;
+  }
+  .btn {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .modal .winner {
+    font-size: 40px;
   }
 }
 .card .inside {
@@ -111,6 +121,7 @@ a {
   display: block;
   margin: 0 auto;
   max-height: 100%;
+  max-width: 100%;
 }
 .card .front {
   transform: rotateY(-180deg);
