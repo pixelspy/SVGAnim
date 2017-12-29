@@ -177,51 +177,51 @@ function modalContent2() {
 			img: "./img/informaticien-1-turing.png",
 			id: 1
 		},
-		// {
-		// 	name: "lee",
-		// 	img: "./img/informaticien-2-berners-lee.png",
-		// 	id: 2
-		// },
-		// {
-		// 	name: "hopper",
-		// 	img: "./img/informaticien-3-hopper.png",
-		// 	id: 3
-		// },
-		// {
-		// 	name: "lovelace",
-		// 	img: "./img/informaticien-4-lovelace.png",
-		// 	id: 4
-		// },
-		// {
-		// 	name: "babbage",
-		// 	img: "./img/informaticien-5-Babbage.png",
-		// 	id: 5
-		// },
-		// {
-		// 	name: "stroustrup",
-		// 	img: "./img/informaticien-6-stroustrup.png",
-		// 	id: 6
-		// },
-		// {
-		// 	name: "ritchie",
-		// 	img: "./img/informaticien-7-ritchie.png",
-		// 	id: 7
-		// },
-		// {
-		// 	name: "?",
-		// 	img: "./img/informaticien-8-??.png",
-		// 	id: 8
-		// },
-		// {
-		// 	name: "torsvalds",
-		// 	img: "./img/informaticien-9-torsvlads.jpg",
-		// 	id: 9
-		// },
-		// {
-		// 	name: "solo",
-		// 	img: "./img/informaticien-10-solo.jpg",
-		// 	id: 10
-		// },
+		{
+			name: "lee",
+			img: "./img/informaticien-2-berners-lee.png",
+			id: 2
+		},
+		{
+			name: "hopper",
+			img: "./img/informaticien-3-hopper.png",
+			id: 3
+		},
+		{
+			name: "lovelace",
+			img: "./img/informaticien-4-lovelace.png",
+			id: 4
+		},
+		{
+			name: "lamarr",
+			img: "./img/informaticien-6-lamar.jpg",
+			id: 5
+		},
+		{
+			name: "Roy Mouton",
+			img: "./img/informaticien-5-roy-mouton.jpg",
+			id: 6
+		},
+		{
+			name: "ritchie",
+			img: "./img/informaticien-7-ritchie.png",
+			id: 7
+		},
+		{
+			name: "wozniak",
+			img: "./img/informaticien-8-wozniak.jpg",
+			id: 8
+		},
+		{
+			name: "torsvalds",
+			img: "./img/informaticien-9-torsvlads.jpg",
+			id: 9
+		},
+		{
+			name: "solo",
+			img: "./img/informaticien-10-solo.jpg",
+			id: 10
+		},
 	];
 
 	Memory.init(cards);

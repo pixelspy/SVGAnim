@@ -229,7 +229,14 @@ a {
 
 
 .rules {
+  margin: 30px 70px 20px 70px;
+  padding: 50px;
   width: 1000px;
+
+}
+
+.backgroundTx {
+
   color: black;
   margin: 30px 70px 20px 70px;
   padding: 50px;
