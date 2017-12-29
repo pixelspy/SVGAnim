@@ -13,19 +13,46 @@ function countdown() {
 };
 
 function modalContent1() {
-	if (timeLeft >= 65) {
+	if (timeLeft >= 60) {
+		document.getElementById("winner").innerHTML = "Bravo ! La nouvelle année commence bien ! ";
 		document.getElementById("winner30").innerHTML = "Tu seras prochainement contacté par l’équipe SimplonProd pour découvrir ton cadeau.";
-		document.getElementById("btnRecevoirCadeau").innerHTML = "Recevoir son cadeau";
+		document.getElementById("btnEnd").innerHTML = "Recevoir son cadeau";
+		document.getElementById("lienBtnEnd").href = "http://prod.simplon.co/challenge-santaprod//";
+
 
 	}
 };
 
 function modalContent2() {
-	if (timeLeft <= 65) {
+	if (timeLeft <= 60) {
+		document.getElementById("winner").innerHTML = "Bravo !";
 		document.getElementById("winner30").innerHTML = "Tu as réussi le jeu mais tu dois encore progresser pour passer sous la barre des 35 secondes !";
-		document.getElementById("btnRecommencer").innerHTML = "Recommencer";
+		document.getElementById("btnEnd").innerHTML = "Recommencer";
+		document.getElementById("lienBtnEnd").href = "./jeu.html";
+
 	}
 };
+//
+// (function(){
+//     $('#wrapperBtn').click(function(e){
+//         $(this).addClass('dark');
+//         var x = e.pageX + 'px';
+//         var y = e.pageY + 'px';
+//         var img = $('<div class="blip"></div>');
+//         var div = $('<div class="blip">').css({
+//             "position": "absolute",
+//             "left": x,
+//             "top": y
+//         });
+//         div.append(img);
+//         $('#wrapperBtn').append(div);
+// 				setTimeout(function(){
+//         $('#wrapperBtn').removeClass('dark');
+//
+//       }, 1250);
+//     });
+//
+// });
 
 
 (function(){
@@ -150,51 +177,51 @@ function modalContent2() {
 			img: "./img/informaticien-1-turing.png",
 			id: 1
 		},
-		{
-			name: "lee",
-			img: "./img/informaticien-2-berners-lee.png",
-			id: 2
-		},
-		{
-			name: "hopper",
-			img: "./img/informaticien-3-hopper.png",
-			id: 3
-		},
-		{
-			name: "lovelace",
-			img: "./img/informaticien-4-lovelace.png",
-			id: 4
-		},
-		{
-			name: "babbage",
-			img: "./img/informaticien-5-Babbage.png",
-			id: 5
-		},
-		{
-			name: "stroustrup",
-			img: "./img/informaticien-6-stroustrup.png",
-			id: 6
-		},
-		{
-			name: "ritchie",
-			img: "./img/informaticien-7-ritchie.png",
-			id: 7
-		},
-		{
-			name: "?",
-			img: "./img/informaticien-8-??.png",
-			id: 8
-		},
-		{
-			name: "torsvalds",
-			img: "./img/informaticien-9-torsvlads.jpg",
-			id: 9
-		},
-		{
-			name: "solo",
-			img: "./img/informaticien-10-solo.jpg",
-			id: 10
-		},
+		// {
+		// 	name: "lee",
+		// 	img: "./img/informaticien-2-berners-lee.png",
+		// 	id: 2
+		// },
+		// {
+		// 	name: "hopper",
+		// 	img: "./img/informaticien-3-hopper.png",
+		// 	id: 3
+		// },
+		// {
+		// 	name: "lovelace",
+		// 	img: "./img/informaticien-4-lovelace.png",
+		// 	id: 4
+		// },
+		// {
+		// 	name: "babbage",
+		// 	img: "./img/informaticien-5-Babbage.png",
+		// 	id: 5
+		// },
+		// {
+		// 	name: "stroustrup",
+		// 	img: "./img/informaticien-6-stroustrup.png",
+		// 	id: 6
+		// },
+		// {
+		// 	name: "ritchie",
+		// 	img: "./img/informaticien-7-ritchie.png",
+		// 	id: 7
+		// },
+		// {
+		// 	name: "?",
+		// 	img: "./img/informaticien-8-??.png",
+		// 	id: 8
+		// },
+		// {
+		// 	name: "torsvalds",
+		// 	img: "./img/informaticien-9-torsvlads.jpg",
+		// 	id: 9
+		// },
+		// {
+		// 	name: "solo",
+		// 	img: "./img/informaticien-10-solo.jpg",
+		// 	id: 10
+		// },
 	];
 
 	Memory.init(cards);
