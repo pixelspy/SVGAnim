@@ -7,12 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
-
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
 	</head>
 	<body>
-	   <div class="wrap">
+	   <div class="wrap container">
   		<div class="timer-container">
     			<!-- pie timer -->
     			<div class="timer-pie">
@@ -21,25 +19,22 @@
     			<div id="timer"></div>
   		  </div>
 
-  			<div class="game"></div>
+  			<div class="game row col-md-12 ">
+            </div>
 
   			<div class="modal-overlay">
+
   					<div class="modal">
   						<h2 class="winner" id="winner">BRAVO !</h2>
   						<h3 id="winner30" class="text-centered"></h3>
-
-              <a id="lienBtnEnd" href=""><h3 class="btn text-centered" id="btnEnd"></h3></a>
-              <a target="_blank" href="histoire-cartes.html"><h3 class="btnQui text-centered">Qui sont ils.elles?</h3></a>
-
-  						<ul class="social">
-  							<li><a target="_blank" class="twitter" href="https://twitter.com/simplonco"><span class="fa fa-twitter"></span></a></li>
-  							<li><a target="_blank" class="facebook" href="https://www.facebook.com/Simplon.co"><span class="fa fa-facebook"></span></a></li>
-  							<li><a target="_blank" class="google" href="#"><span class="fa fa-google"></span></a></li>
-  						</ul>
+                        <div class="">
+                            <a id="lienBtnEnd" href=""><h3 class="btn text-centered" id="btnEnd"></h3></a>
+                        </div>
+              <!-- <a target="_blank" href="histoire-cartes.html"><h3 class="btnQui text-centered">Qui sont ils.elles?</h3></a> -->
+                
   					</div>
-  				</div>
-	   </div>
-	<!-- end of wrap -->
+  			</div>
+	     </div>
 			<script type="text/javascript" src="./script.js"></script>
 	</body>
 </html>
