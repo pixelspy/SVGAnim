@@ -52,8 +52,8 @@ a {
 }
 .card {
   float: left;
-  width: 25%;
-  height: 15%;
+  width: 130px;
+  height: 133px;
   padding: 5px;
   text-align: center;
   display: block;
@@ -147,7 +147,7 @@ a {
 .modal .winner {
   font-size: 40px;
   text-align: center;
-  color: #4d4d4d;
+  /*color: #4d4d4d;*/
 }
 @media (max-width: 480px) {
   .modal .winner {
